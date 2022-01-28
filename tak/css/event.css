@@ -1,0 +1,147 @@
+body {
+  margin-left: auto;
+  padding: 0;
+  background: linear-gradient(to left, #0033cc 0%, #99ccff 100%);
+}
+
+div {
+  background: linear-gradient(to left, #0033cc 0%, #99ccff 100%);
+}
+
+/*leftside*/
+section .leftside {
+  width: 50%;
+  height: 80%;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+section .leftside .main:hover {
+  cursor: pointer;
+}
+
+section .leftside .main h1 {
+  margin: auto;
+  padding: inherit;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+section .leftside .main h4 {
+  margin: auto;
+  padding: inherit;
+  font-size: 20px;
+  font-family: monospace, Monaco;
+}
+
+section .leftside .main h6 {
+  margin: auto;
+  padding: inherit;
+  font-size: 15px;
+  font-family: serif, Georgia;
+}
+
+section .leftside .main p {
+  margin: 10px 0 0 0;
+  font-style: normal;
+}
+/*rightside*/
+section .rightside {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
+}
+
+section .rightside ul {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+section .rightside ul li {
+  list-style: none;
+  background: pink;
+  box-sizing: border-box;
+  height: 200px;
+  margin: 15px 0;
+}
+
+section .rightside ul li .day {
+  position: relative;
+  padding: 20px;
+  background: #262626;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  transition: .5s;
+}
+
+section .rightside ul li:hover .day {
+  background: beige;
+}
+
+section .rigthside ul li .day h3 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: green;
+  font-size: 60px;
+  line-height: 30px;
+}
+
+section .rightside ul li .day h3 span {
+  font-size: 30px;
+}
+
+section .rightside ul li .day h3 span {
+  font-size: 30px;
+}
+
+section .rightside ul li .information {
+  padding: 20px;
+  background: beige;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+section .rightside ul li .information h4 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-family: fantasy;
+}
+
+section .rightside ul li .information p {
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+/*more details that has links to the website- this includes more information regarding the event */
+section .rightside ul li .information a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 2px 15px;
+  border: 1.5px solid green;
+  margin-top: 8px;
+  font-size: 18px;
+  transition: .6s;
+}
+
+section .rightside ul li .information a:hover {
+  cursor: pointer;
+}

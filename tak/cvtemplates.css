@@ -1,0 +1,290 @@
+
+/* NAV BAR */
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black; }
+  /*  the "active" element to highlight the current page */
+  .navbar a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+
+
+    /* search box inside the navigation bar */
+    .navbar input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-family: 'Lato', sans-serif;
+      font-size: 17px;
+    }
+
+    .navbar input[type=text] {
+      border: 1px solid #ccc;
+    }
+/* CV TEMPLATES PAGE*/
+table, th, td {
+  border:1px solid black;
+  padding-top: 40px;
+}
+
+/* START: download button*/
+.button {
+	display: block;
+	background: #00A9D4;
+	color: #fff;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+.button:hover {
+	background: #DC6C11;
+}
+.download {
+	color: #888;
+	padding: 15px;
+  width: 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 65px;
+}
+
+
+
+
+/* START FOOTER*/
+
+.container {
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+/* address */
+.footer-col ul li.address{
+  font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+/* address hover effect */
+.footer-col ul li.address:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+/* subscribe */
+.newsletter{
+  background: url(bg.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.newsletter p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: flex;
+}
+.email-box i{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn2{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn2{
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+/*for the first facebook icon*/
+.footer-col .social-links .facebook{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+
+  /*image*/
+  background-image: url(images/facebook.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+/* for the second facebook icon*/
+.footer-col .social-links .facebook{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+
+  /*image*/
+  background-image: url(images/facebook.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+/* for the first instagram icon*/
+.footer-col .social-links .instagram{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+
+  /*image*/
+  background-image: url(images/instagram.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+	margin:0 10px 10px 0;
+	text-align: center;
+  font-family: 'Lato', sans-serif;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+/* for the second instagram icon*/
+.footer-col .social-links .instagram{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+
+  /*image*/
+  background-image: url(images/instagram.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+	margin:0 10px 10px 0;
+	text-align: center;
+  font-family: 'Lato', sans-serif;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+/* hover effect on social media icons*/
+.footer-col .social-links a:hover{
+  display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+
+
+/* END: FOOTER*/

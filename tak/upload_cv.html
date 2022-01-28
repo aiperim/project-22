@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload CV</title>
+    <link rel="stylesheet" href="upload_cv.css">
+  </head>
+  <body>
+    <body style="background: -webkit-linear-gradient(right, #adcbe3, #e9ded8);" >
+
+
+      <!--NAV BAR-->
+            <div class="navbar">
+              <a class="active "href="index.html" target="_blank">HOME</a>
+              <a href="careers_advice.html" target="_blank">CAREERS ADVICE</a>
+              <a href="contact.html" target="_blank">CONTACT US</a>
+              <a href="upload_cv.html" target="_blank">UPLOAD CV</a>
+              <a href="event.html" target="_blank">EVENTS</a>
+              <a href="profile.html" target="_blank">PROFILE</a>
+              <a href="direct_message.html" target="_blank">MESSAGES</a>
+              <a href="sign_in_up.html" target="_blank">SIGN IN/SIGN UP</a>
+                <!-- google search bar-->
+                <form action="https://www.google.com/search">
+                  <input type="text" name="q"  placeholder="Search in Google..." target="_blank">
+                </form>
+
+            </div>
+
+      <!--NAV BAR ends-->
+
+<!-- MAIN CONTENT -->
+<div class="wrapper">
+    <header>File Uploader</header>
+    <form action="upload.php">
+      <input class="file-input" type="file" name="file" hidden>
+      <i class="fas fa-cloud-upload-alt"></i>
+      <p>Browse File to Upload</p>
+    </form>
+    <section class="progress-area"></section>
+    <section class="uploaded-area"></section>
+  </div>
+  <script src="script.js"></script>
+
+
+
+  </body>
+</html>
